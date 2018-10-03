@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Eateries</string>
+    <string name="search_hint">Enter location/name</string>
+</resources>

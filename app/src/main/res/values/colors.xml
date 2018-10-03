@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cb202d</color>
+    <color name="colorPrimaryDark">#D50000</color>
+    <color name="colorAccent">#009688</color>
+    <color name="milk">#dcd9cd</color>
+    <color name="rating">#455A64</color>
+    <color name="address">#37474F</color>
+    <color name="bg">#ECEFF1</color>
+    <color name="ok">#009688</color>
+</resources>

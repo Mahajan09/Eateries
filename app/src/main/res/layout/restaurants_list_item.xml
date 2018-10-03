@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="4dp"
+    android:background="@color/bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <dev.rism.eateries.CanaroTextView
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:text="Khatta Meetha Caterers"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_item_name"
+            android:layout_height="match_parent" />
+        <dev.rism.eateries.GothamTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/tv_item_rating"
+
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:background="@color/rating"
+            android:textColor="@color/milk"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="12sp"
+        android:gravity="center_vertical"
+        android:typeface="monospace"
+        android:textColor="@color/address"
+        android:text="Kanpur"
+        android:id="@+id/tv_item_address"
+        />
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="2dp"
+     android:background="@color/rating"
+     android:layout_margin="2dp"
+     ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:padding="2dp"
+            android:paddingLeft="5dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:text="Cuisines"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:id="@+id/tv_item_cuisine"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent"
+            android:layout_weight="6"/>
+    </LinearLayout>
+</LinearLayout>
